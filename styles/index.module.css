@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Hero';
+    src: local('Hero Light'), local('Hero-Light'), url('../hero/Herolight.woff2') format('woff2'), url('../hero/Herolight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.main{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../img/Background.png);
+    width: 100%;
+    height: 163px;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    top: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.burgerMenuIcon{
+    margin-left: 15px;
+}
+
+.logo{
+    margin-right: 14px;
+}
+
+.title{
+    color: #f3f3f3;
+    font-size: 64px;
+    line-height: 76.8px;
+    font-family: "Hero";
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    background: linear-gradient(#032A47, #000000);
+    margin-top: -35px;
+    height: 1000px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -10px 20px 0px #000807;
+}
+
+.search{
+    width:  92%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.input{
+    width:  100%;
+    height: 50%;
+    margin-top: 15px;
+    border-radius: 10px;
+    border:none;
+    padding-left: 15px;
+    background-color: #213849;
+    color: #fff;
+    font-family: "Hero";
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 200;
+}
+
+.searchIcon{
+    position: relative;
+    z-index: 1;
+    top: -17px;
+    margin-left: 91%;
+}
+
