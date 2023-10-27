@@ -46,7 +46,6 @@
     width: 100%;
     background: linear-gradient(#032A47, #000000);
     margin-top: -35px;
-    height: 1000px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 0px -10px 20px 0px #000807;
@@ -110,4 +109,41 @@
 
 .navScrollerItemActive{
     text-decoration:#f3f3f3;
+}
+
+.preCategory{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryTypes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.categoryTitle{
+    font-family: "Hero";
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    color:#fff;
+}
+
+.categoryType{
+    font-family: "Hero";
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.goods{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
