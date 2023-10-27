@@ -80,3 +80,34 @@
     margin-left: 91%;
 }
 
+.navScroller{
+    margin-top: 15px;
+    overflow-y: hidden;
+}
+
+.navScrollerItems{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.navScrollerItems::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.navScrollerItem{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Hero";
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 15px;
+}
+
+.navScrollerItemActive{
+    text-decoration:#f3f3f3;
+}
