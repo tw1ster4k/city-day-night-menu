@@ -5,6 +5,12 @@ import BurgerMenuIcon from "../img/BurgerMenuIcon.svg"
 import SearchIcon from "../img/SearchIcon.svg"
 import Link from "next/link"
 import Card from "../components/Card"
+import Vk from "../img/Vk.svg"
+import Tg from "../img/tg.svg"
+import Phone from "../img/phone.svg"
+import MapIcon from "../img/mapIcon.svg"
+import Houses from "../img/Houses.png"
+
 
 const index = () => {
   const classNavScrollerItem = styles.navScrollerItem + " " + styles.navScrollerItemActive
@@ -51,7 +57,17 @@ const index = () => {
                           <Card />
                           <Card />
                       </div>
-                      
+                      <div className={styles.info}>
+                          <p>© 2023 Рестобар «City»</p>
+                          <div className={styles.link} >
+                              <Image src={Vk} />
+                              <Image src={Tg} />
+                              <Image src={Phone} />
+                              <Image src={MapIcon} />
+                          </div>
+                          <p style={{fontSize:"10px", lineHeight:"12px", color:"#fff"}}>Разработано веб-студией "Страйкер"</p>
+                      </div>
+                      <Image style={{marginTop:"40px", marginBottom:"8px"}} src={Houses} />
                   </div>
               </div>
     </div>
