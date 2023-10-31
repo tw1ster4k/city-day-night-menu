@@ -14,6 +14,7 @@ import Houses from "../img/Houses.png"
 
 const index = () => {
   const classNavScrollerItem = styles.navScrollerItem + " " + styles.navScrollerItemActive
+
   return (
     <div className={styles.main}>
         <header className={styles.header}>
@@ -50,12 +51,12 @@ const index = () => {
                         <text className={styles.categoryType}>Дымные</text>
                       </div>
                       <div className={styles.goods}>
-                          <Card />
-                          <Card />
-                          <Card />
-                          <Card />
-                          <Card />
-                          <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
                       </div>
                       <div className={styles.info}>
                           <p>© 2023 Рестобар «City»</p>
@@ -67,7 +68,7 @@ const index = () => {
                           </div>
                           <p style={{fontSize:"10px", lineHeight:"12px", color:"#fff"}}>Разработано веб-студией "Страйкер"</p>
                       </div>
-                      <Image style={{marginTop:"40px", marginBottom:"8px"}} src={Houses} />
+                    <Image style={{marginTop:"40px", marginBottom:"8px", width: "100%",}} src={Houses} />
                   </div>
               </div>
     </div>

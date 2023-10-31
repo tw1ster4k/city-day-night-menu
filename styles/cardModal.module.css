@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Hero';
+    src: local('Hero Light'), local('Hero-Light'), url('../hero/Herolight.woff2') format('woff2'), url('../hero/Herolight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.card{
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid   #8E8E8E;
+    margin-bottom: 15px;
+}
+
+.img{
+    width: 86%;
+    border-radius: 22.95px;
+    margin: 25px 25px 25px 25px;
+}
+
+.title{
+    font-family: "Hero", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 13.53px;
+}
+
+.description{
+    font-family: "Hero", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.price{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.priceItem{
+    font-family: "Hero", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    color:#fff
+}
