@@ -1,17 +1,18 @@
 import styles from "../styles/index.module.css"
 import Image from "next/image"
-import Logo from "../img/Logo.svg"
+import Logo from "../img/logo.svg"
 import BurgerMenuIcon from "../img/BurgerMenuIcon.svg"
 import SearchIcon from "../img/SearchIcon.svg"
 import Link from "next/link"
 import Card from "../components/Card"
 import Vk from "../img/Vk.svg"
-import Tg from "../img/tg.svg"
+import Inst from "../img/ints.svg"
 import Phone from "../img/phone.svg"
 import MapIcon from "../img/mapIcon.svg"
 import Houses from "../img/Houses.png"
 import { data } from "../data"
 import { useState } from "react"
+
 
 
 const index = () => {
@@ -23,7 +24,7 @@ const index = () => {
         <header className={styles.header}>
             <div className={styles.nav}>
                 <Image className={styles.burgerMenuIcon} src={BurgerMenuIcon} />
-                <Image src={Logo} className={styles.logo} />
+                <Image width={50} src={Logo} className={styles.logo} />
             </div>
                 <h1 className={styles.title}>Меню</h1>
         </header>
@@ -56,8 +57,12 @@ const index = () => {
                       <div className={styles.info}>
                           <p>© 2023 Рестобар «City»</p>
                           <div className={styles.link} >
-                              <Image src={Vk} />
-                              <Image src={Tg} />
+                           <Link href="https://vk.com/city_orb">
+                            <Image src={Vk} />
+                           </Link>   
+                           <Link href="https://instagram.com/city_day_night?igshid=MzMyNGUyNmU2YQ==">
+                            <Image src={Inst} />
+                           </Link> 
                               <Image src={Phone} />
                               <Image src={MapIcon} />
                           </div>

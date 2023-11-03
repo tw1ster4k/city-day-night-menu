@@ -99,42 +99,40 @@ export const bar = {
             name:"Анчан",
             weight:"1л",
             price:290
-        }
-    ],
-    autorTea:[
+        },
         {
             name:"Яблоко/Корица",
-            description:"Чай Сенча, яблоко сироп, корица, яблоко",
+            description:"Чай Сенча, яблоко сироп, корица, яблоко. Авторский",
             weight:"1л",
             price:420
         },
         {
             name:"Облепиха/Цитрус",
-            description:"Чай Ассам, цитрусы, анис, облепиха",
+            description:"Чай Ассам, цитрусы, анис, облепиха. Авторский",
             weight:"1л",
             price:420
         },
         {
             name:"Вишня/Мята",
-            description:"Чай Ассам, вишня, мята, сироп вишни",
+            description:"Чай Ассам, вишня, мята, сироп вишни. Авторский",
             weight:"1л",
             price:420
         },
         {
             name:"Ягоды/Груша",
-            description:"Чай лесные ягоды, сироп груша, груша",
+            description:"Чай лесные ягоды, сироп груша, груша. Авторский",
             weight:"1л",
             price:420
         },
         {
             name:"Апельсин/Мед",
-            description:"Чай Ассам, апельсин, сироп мохито",
+            description:"Чай Ассам, апельсин, сироп мохито. Авторский",
             weight:"1л",
             price:420
         },
         {
             name:"Пина Колада",
-            description:"Чай молочный улун, сироп кокос, ананас",
+            description:"Чай молочный улун, сироп кокос, ананас. Авторский",
             weight:"1л",
             price:420
         },
@@ -242,10 +240,10 @@ export const bar = {
             price:"250/2500"
         }
     ],
-    classicsCoctail:[
+    сoctail:[
         {
             name:"Aperol Spritz",
-            description:"Апероль, просекко, содовая, апельсин",
+            description:"Апероль, просекко, содовая, апельсин. Классический",
             weight:"500мл",
             price:500
         },
@@ -257,177 +255,175 @@ export const bar = {
         },
         {
             name:'Mai Tai Poм',
-            description:"Выдержанный, лайм, миндаль, цитрусовый ликер",
+            description:"Выдержанный, лайм, миндаль, цитрусовый ликер. Классический",
             weight:"150мл",
             price:550
         },
         {
             name:'Negroni',
-            description:"Кампари, джин, мартини россо, апельсин",
+            description:"Кампари, джин, мартини россо, апельсин. Классический",
             weight:"150мл",
             price:420
         },
         {
             name:"Mojito",
-            description:"Ром, лайм, мята, содовая",
+            description:"Ром, лайм, мята, содовая. Классический",
             weight:"500мл",
             price:400
         },
         {
             name:'Margarita',
-            description:"Текила, цитрусовый ликер, сах.сироп, лайм",
+            description:"Текила, цитрусовый ликер, сах.сироп, лайм. Классический",
             weight:"350мл",
             price:420
         },
         {
             name:"Tequila Sunrise",
-            description:"Текила, фреш апельсин, сироп гренадин",
+            description:"Текила, фреш апельсин, сироп гренадин. Классический",
             weight:'300мл',
             price:350
         },
         {
             name:'New-York Sour',
-            description:"Бурбон, сах.сироп, лайм, вино красное",
+            description:"Бурбон, сах.сироп, лайм, вино красное. Классический",
             weight:"200мл",
             price:380
         },
         {
             name:"Pina Colada",
-            description:"Ром белый, сок ананаса, пюре кокос",
+            description:"Ром белый, сок ананаса, пюре кокос. Классический",
             weight:"350мл",
             price:380
         },
         {
             name:'Sex on the Beach',
-            description:'Водка, ликер дыни, сок ананаса, фреш апельсина, морс',
+            description:'Водка, ликер дыни, сок ананаса, фреш апельсина, морс. Классический',
             weight:"490мл",
             price:330
         },
         {
             name:'Bloody Mary',
-            description:'Водка, томатный сок, сельдерей, базилик, соль, перец, табаско',
+            description:'Водка, томатный сок, сельдерей, базилик, соль, перец, табаско. Классический',
             weight:"390мл",
             price:350
         },
         {
             name:"Basil Smash",
-            description:"Джин, лайм, базилик,сах.сироп",
+            description:"Джин, лайм, базилик,сах.сироп. Классический",
             weight:"350мл",
             price:350
         },
         {
             name:'Paloma',
-            description:'Текила, фреш грейп, фреш апельсин, ликер трипл сек, лайм',
+            description:'Текила, фреш грейп, фреш апельсин, ликер трипл сек, лайм. Классический',
             weight:'400мл',
             price:390
         },
         {
             name:'Pornstar Martini',
-            description:'Вкусовая водка, фреш апельсина, пюре маракуйа, просекко',
+            description:'Вкусовая водка, фреш апельсина, пюре маракуйа, просекко. Классический',
             weight:'170 мл',
             price:550
-        }
-    ],
-    autorCoctail:[
+        },
         {
             name:'Crystal Edition',
-            description:'Джин, вермут, лайм, маракуйа, мята, тоник/спрайт',
+            description:'Джин, вермут, лайм, маракуйа, мята, тоник/спрайт. Авторский',
             weight:'350мл',
             price:480
         },
         {
             name:'Jay-Z',
-            description:'Ром выдержанный, сахар сироп, Априкот, пюре вишни, лайм',
+            description:'Ром выдержанный, сахар сироп, Априкот, пюре вишни, лайм. Авторский',
             weight:'50мл',
             price:420
         },
         {
             name:'Beyonce',
-            description:'Джин, персик ликер, мартини фиеро, лайм, малина',
+            description:'Джин, персик ликер, мартини фиеро, лайм, малина. Авторский',
             weight:'350мл',
             price:450
         },
         {
             name:'Lemon Scotch',
-            description:'Виски, апероль, лайм, манго, биттер лемон',
+            description:'Виски, апероль, лайм, манго, биттер лемон. Авторский',
             weight:"500мл",
             price:450
         },
         {
             name:'Future Tai',
-            description:'Ликер дыня, Выд ром, сироп гуава, сок лайма',
+            description:'Ликер дыня, Выд ром, сироп гуава, сок лайма. Авторский',
             weight:'350мл',
             price:360
         },
         {
             name:'Bali',
-            description:'Виски, клубника, маракуйа, сироп ваниль, лайм',
+            description:'Виски, клубника, маракуйа, сироп ваниль, лайм. Авторский',
             weight:'300мл',
             price:450
         },
         {
             name:'Pink Li',
-            description:'Джин, пюре питахайи, лаванда, лайм, ликер маркуйи',
+            description:'Джин, пюре питахайи, лаванда, лайм, ликер маркуйи. Авторский',
             weight:'135мл',
             price:380
         },
         {
             name:'Tusechka V2.0',
-            description:'Водка, ликер смородина, сливочный, кофе ликер',
+            description:'Водка, ликер смородина, сливочный, кофе ликер. Авторский',
             weight:'160мл',
             price:380
         },
         {
             name:'Lonely MILF',
-            description:'Ром, манго, лайм, кокос, проссеко',
+            description:'Ром, манго, лайм, кокос, проссеко. Авторский',
             weight:'350мл',
             price:520
         },
         {
             name:'Winehouse',
-            description:'Джин, ликер личи, сироп бузина, лайм, клубника',
+            description:'Джин, ликер личи, сироп бузина, лайм, клубника. Авторский',
             weight:'300мл',
             price:380
         },
         {
             name:"Bramble Savage",
-            description:'Кордиал, водка вкусовая, фалернум, малина',
+            description:'Кордиал, водка вкусовая, фалернум, малина. Авторский',
             weight:'220мл',
             price:420
         },
         {
             name:'Barbie',
-            description:"Малина, ваниль, пинк джин, лайм, просекко",
+            description:"Малина, ваниль, пинк джин, лайм, просекко. Авторский",
             weight:'350мл',
             price:520
         },
         {
             name:'40/30',
-            description:'Самбука, лайм, сок ананаса, бабл гам, фиалка',
+            description:'Самбука, лайм, сок ананаса, бабл гам, фиалка. Авторский',
             weight:'330мл',
             price:380
         },
         {
             name:'Diamond',
-            description:'Кордиал, вкусовая водка, базилик',
+            description:'Кордиал, вкусовая водка, базилик. Авторский',
             weight:'330мл',
             price:380
         },
         {
             name:'Pink Phloyd',
-            description:"Ром, мартини россо, кордиал, лайм",
+            description:"Ром, мартини россо, кордиал, лайм. Авторский",
             weight:'300мл',
             price:430
         },
         {
             name:'Blackberry Sour',
-            description:'Виски, лайм, сироп ежевики, белок',
+            description:'Виски, лайм, сироп ежевики, белок. Авторский',
             weight:'300мл',
             price:460
         },
         {
             name:'Lavender Sour',
-            description:'Джин, лайм, сироп лаванды, белок',
+            description:'Джин, лайм, сироп лаванды, белок. Авторский',
             weight:'300мл',
             price:420
         },
@@ -520,72 +516,80 @@ export const bar = {
             price:'520/7280'
         },
     ],
-    whiskey:{
-        blended:[
+    whiskey:[
             {
-                name:'Джим бим Бурбон/Jim Beam Bourbon',
+                name:'Джим бим Бурбон/Jim Beam Bourbon.',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:'400/5600'
             },
             {
                 name:'Джим Бим Ред стаг/Jim Beam Red Stag',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:"400/5600"
             },
             {
                 name:'Джим Бим Эппл/Jim Beam Apple',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:'400/5600'
             },
             {
                 name:'Джемесон/Jameson',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:'450/6300'
             },
             {
                 name:'Акаши Блендед/Akashi Blended',
+                description:'Купажированный',
                 weight:"50мл/600мл",
                 price:"640/6400"
             },
             {
                 name:'Балантайс Файнст/Ballantines Finest',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:'350/4900'
             },
             {
                 name:'Уистлер Дабл Оакед Ириш/The Whistler Double Oaked Iris',
+                description:'Купажированный',
                 weight:"50мл/700мл",
                 price:'320/4480'
             },
             {
                 name:'Чивас Ригал 12 лет/Chivas Regal 12 y.o.',
+                description:'Купажированный',
                 weight:'50мл/700мл',
                 price:'690/9660'
-            }
-        ],
-    single:[
+            },
         {
             name:'Уистлер Пи Икс Ай Лав Ю/Whistler PX I Love U',
+            description:'Односолодовый',
             weight:'50мл/700мл',
             price:'600/8400'
         },
         {
             name:'Акентошан Американ ОАК/Auchentoshan American OAK',
+            description:'Односолодовый',
             weight:'50мл/700мл',
             price:'790/11000'
         },
         {
             name:'Томинтул Спейсайд Гленливет Сингл Молт 10 лет/Tomintoul Speyside Glenlivet Single Malt Scotch Whisky 10 у.о.',
             weight:'50мл/700мл',
+            description:'Односолодовый',
             price:'1070/14950'
         },
         {
             name:'Глинфиддик 12 лет/Glenfiddich 12 Y.o.',
+            description:'Односолодовый',
             weight:"50мл/700мл",
             price:'1070/14950'
         },
-    ]
-    },
+],
     rum:[
         {
             name:'Barcelo Blanco',
