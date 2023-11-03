@@ -42,7 +42,7 @@ const index = () => {
                       <p className={classNavScrollerItem} style={ selected === "Пасты" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.pasta); setSelected("Пасты")}}>Пасты</p>
                       <p className={classNavScrollerItem} style={ selected === "Мясо" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.meat); setSelected('Мясо')}}>Мясо</p>
                       <p className={classNavScrollerItem} style={ selected === "Рыба" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.fish); setSelected("Рыба")}}>Рыба</p>
-                      <p className={classNavScrollerItem} style={ selected === "Гарниры" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.trimmings); setSelected("Гарнир")}}>Гарниры</p>
+                      <p className={classNavScrollerItem} style={ selected === "Гарниры" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.trimmings); setSelected("Гарниры")}}>Гарниры</p>
                       <p className={classNavScrollerItem} style={ selected === "Бургеры" ? {borderBottom:1 + "px solid #fff"} :{}} onClick={() => {setGoods(data.burgers); setSelected("Бургеры")}}>Бургеры</p>
                       <p className={classNavScrollerItem} style={ selected === "Роллы" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.rolls); setSelected("Роллы")}}>Роллы</p>
                       <p className={classNavScrollerItem} style={ selected === "Десерты" ? {borderBottom:1 +"px solid #fff"} : {}} onClick={() => {setGoods(data.dessert); setSelected("Десерты")}}>Десерты</p>  
