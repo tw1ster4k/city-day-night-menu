@@ -18,6 +18,7 @@ import { useState } from "react"
 const index = () => {
   const classNavScrollerItem = styles.navScrollerItem + " " + styles.navScrollerItemActive
   const [goods, setGoods] = useState(data.snacks)
+  const [selected, setSelected] = useState("Закуски")
 
   return (
     <div className={styles.main}>
@@ -35,16 +36,16 @@ const index = () => {
                 </div>
                 <div className={styles.navScroller}>
                   <nav className={styles.navScrollerItems}>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.snacks)}>Закуски</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.salads)}>Салаты</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.soups)}>Супы</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.pasta)}>Пасты</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.meat)}>Мясо</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.fish)}>Рыба</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.trimmings)}>Гарниры</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.burgers)}>Бургеры</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.rolls)}>Роллы</p>
-                      <p className={classNavScrollerItem} onClick={() => setGoods(data.dessert)}>Десерты</p>  
+                    <p className={classNavScrollerItem} style={ selected === "Закуски" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.snacks); setSelected("Закуски")}}>Закуски</p>
+                      <p className={classNavScrollerItem} style={ selected === "Салаты" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.salads); setSelected('Салаты')}}>Салаты</p>
+                      <p className={classNavScrollerItem} style={ selected === "Супы" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.soups); setSelected("Супы")}}>Супы</p>
+                      <p className={classNavScrollerItem} style={ selected === "Пасты" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.pasta); setSelected("Пасты")}}>Пасты</p>
+                      <p className={classNavScrollerItem} style={ selected === "Мясо" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.meat); setSelected('Мясо')}}>Мясо</p>
+                      <p className={classNavScrollerItem} style={ selected === "Рыба" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.fish); setSelected("Рыба")}}>Рыба</p>
+                      <p className={classNavScrollerItem} style={ selected === "Гарниры" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.trimmings); setSelected("Гарнир")}}>Гарниры</p>
+                      <p className={classNavScrollerItem} style={ selected === "Бургеры" ? {borderBottom:1 + "px solid #fff"} :{}} onClick={() => {setGoods(data.burgers); setSelected("Бургеры")}}>Бургеры</p>
+                      <p className={classNavScrollerItem} style={ selected === "Роллы" ? {borderBottom:1 + "px solid #fff"} : {}} onClick={() => {setGoods(data.rolls); setSelected("Роллы")}}>Роллы</p>
+                      <p className={classNavScrollerItem} style={ selected === "Десерты" ? {borderBottom:1 +"px solid #fff"} : {}} onClick={() => {setGoods(data.dessert); setSelected("Десерты")}}>Десерты</p>  
                   </nav>
                 </div>
                       <div className={styles.goods}>

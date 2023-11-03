@@ -58,7 +58,7 @@
 }
 
 .cross{
-    position: relative;
-    top: 15px;
-    left: 325px;
+    position:relative;
+    margin-top: 15px;
+    left: 90%;
 }
