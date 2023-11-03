@@ -1,6 +1,6 @@
+
 export const data = {
     snacks: [
-        
             {
                 name:'Мясное ассорти',
                 description:"ассортимент мясных специалитетов собственного производства.Пикантный говяжий ростбиф, нежный телячий язык и буженина от шефа. Холодный",
@@ -11,12 +11,14 @@ export const data = {
                 name:"Сырное ассорти",
                 description:"ассортимент благородных сыров: дорблю, пармезан, бри. Гарнируется фруктами и орехами по сезону. Холодный",
                 weight:'180/100/50гр',
+                img:require('./menuImg/snacks/CheeseAssorty.jpg'),
                 price:720
             },
             {
                 name:"Фруктовое ассорти",
                 description:"сезонные фрукты и ягоды в нарезку. Холодный",
                 weight:"900гр",
+                img:require('./menuImg/snacks/FructsAssorty.jpg'),
                 price:680
             },
             {
@@ -40,6 +42,7 @@ export const data = {
             {
                 name:"Тар тар из телятины",
                 description:"с маринованным огурчиком и перепелиным яйцом. Холодный",
+                img:require("./menuImg/snacks/Тар тар из телятины .jpg"),
                 weight:"150гр",
                 price:420
             },
@@ -71,18 +74,21 @@ export const data = {
                 name:'Сыр камамбер',
                 description:"в хрустящей кунжутной панировке с гранатовым соусом. Горячий",
                 weight:'100/50/50гр',
+                img:require("./menuImg/snacks/Сыр камамбер .jpg"),
                 price:320
             },
             {
                 name:"Пикантные крылья фри",
                 description:"в азиатском стиле под кислосладким соусом. Горячий",
                 weight:"250/50гр",
+                img:require("./menuImg/snacks/Пикантные крылья фри.jpg"),
                 price:380
             },
             {
                 name:"Креветки темпура",
                 description:'с соусом свит-чили. Горячий',
                 weight:"150/50гр",
+                img:require("./menuImg/snacks/Креветки темпура.jpg"),
                 price:590
             },
             {
@@ -95,6 +101,7 @@ export const data = {
                 name:"Гренки бородинские",
                 description:"с чесночным соусом и сыром пармезан. Горячий",
                 weight:"180/20/50гр",
+                img:require('./menuImg/snacks/Гренки бородинские .jpg'),
                 price:190
             },
             {
@@ -109,18 +116,21 @@ export const data = {
             name:"Хрустящий овощной салат",
             description:"с оливками и муссом из рассольной брынзы в средиземноморском стиле.",
             weight:"300гр",
+            img:require("./menuImg/меню/салаты/хрустящий овощной салат.jpg"),
             price:420
         },
         {
             name:"Салат с говяжьим ростбифом",
             description:'спелыми томатами и битыми огурцами.',
             weight:"280гр",
+            img:require("./menuImg/меню/салаты/Салат с говяжьим ростбифом  .jpg"),
             price:580
         },
         {
             name:"Нежный салат с индейкой",
             description:"стручковой фасолью и сезонными овощами в теплой сливочно - горчичной заправке.",
             weight:"300гр",
+            img:require("./menuImg/меню/салаты/нежный салат с индейкой.jpg"),
             price:420
         },
         {
@@ -133,13 +143,15 @@ export const data = {
             name:"Нисуаз с тунцом гриль",
             description:"перепелиным яйцом, авокадо и медово – горчичным дрессингом.",
             weight:"320гр",
+            img:require("./menuImg/меню/салаты/Нисуаз с тунцом гриль.jpg"),
             price:580
         },
         {
             name:"Классический салат «Цезарь»",
             description:'с топингом на ваш вкус: курица / креветка/лосось.',
             weight:"340гр",
-            price:"420/540/590"
+            price:"420/540/590",
+            img:require("./menuImg/меню/салаты/классический салат Цезарь с лососем слабой соли.jpg")
         }
     ],
     soups:[
@@ -148,12 +160,14 @@ export const data = {
             description:"с морепродуктами и азиатскими грибами.",
             weight:"300гр",
             price:590,
+            img:require("./menuImg/меню/супы/том ям.jpg")
         },
         {
             name:'Тыквенный крем',
             description:'суп с тигровыми креветками и муссом из сливочного сыра',
             weight:"300гр",
-            price:380
+            price:380,
+            img:require("./menuImg/меню/супы/Тыквенный крем суп.jpg")
         },
         {
             name:'Борщ с черносливом',
@@ -165,7 +179,8 @@ export const data = {
             name:'Классическое куриное консоме',
             description:'с домашней лапшой.',
             weight:"340гр",
-            price:280
+            price:280,
+            img:require('./menuImg/меню/супы/Классическое куриное консоме.jpg')
         },
         {
             name:'Мисо суп',
@@ -179,19 +194,22 @@ export const data = {
             name:"Картофельные ньокки",
             description:'под сыром.',
             weight:"200гр",
-            price:380
+            price:380,
+            img:require("./menuImg/меню/пасты/картофельные ньокки.jpg")
         },
         {
             name:'Спагетти с креветками и петрушкой',
             description:null,
             weight:"240гр",
-            price:640
+            price:640,
+            img:require("./menuImg/меню/пасты/спагетти с морепродуктами.jpg")
         },
         {
             name:'Феттучинни с телятиной',
             description:"под соусом из печеных овощей.",
             weight:"290гр",
-            price:520
+            price:520,
+            img:require('./menuImg/меню/пасты/феттучинни с телятиной .jpg')
         },
         {
             name:'Классическая паста «Карбонара»',
@@ -203,7 +221,8 @@ export const data = {
             name:"Птитим с цыпленком",
             description:"бобами эдаме и шпинатом.",
             weight:"240гр",
-            price:380
+            price:380,
+            img:require("./menuImg/меню/пасты/птитим с цыпленком.jpg")
         },
         {
             name:"Паста балоньезе",
@@ -217,25 +236,28 @@ export const data = {
             name:"Стейк миньон",
             description:"с соусом из свежий зелени и красного перца и кабачками гриль.",
             weight:"250/100/50гр",
-            price:1200
+            price:1200,
+            img:require("./menuImg/меню/Мясо/Стейк миньон.jpg")
         },
         {
             name:"Бефстроганов из говяжьей вырезки",
             description:"с картофельным пюре.",
             weight:"320гр",
-            price:820
+            price:820,
         },
         {
             name:"Томленые щечки бычка",
             description:"с кукурузным пюре и соусом демигляс.",
             weight:"340гр",
-            price:680
+            price:680,
+            img:require('./menuImg/меню/Мясо/Томленые щечки бычка.jpg')
         },
         {
             name:"Стриплоин",
             description:"с овощами гриль и соусом чимичури.",
             weight:"250/150/50гр",
-            price:1320
+            price:1320,
+            img:require('./menuImg/меню/Мясо/Стриплойн.jpg')
         },
         {
             name:'Свиная спинка на гавайский манер',
@@ -247,7 +269,8 @@ export const data = {
             name:"Филе индюшки гриль",
             description:"с феттучинни из припущенного цуккини.",
             weight:"340гр",
-            price:520
+            price:520,
+            img:require("./menuImg/меню/Мясо/Филе индюшки гриль.jpg")
         },
         {
             name:"Рулет из говяжьей грудинки",

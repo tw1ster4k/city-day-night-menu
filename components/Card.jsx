@@ -5,7 +5,7 @@ import Image from "next/image"
 import Cross from "../img/cross.svg"
 import {useState} from "react"
 
-const Card = ({name, description, weidth, price}) => {
+const Card = ({name, description, Img, weidth, price}) => {
   const [modal, setModal] = useState(false)
   return (
     <div onClick={() => setModal(!modal)} className={modal ? stylesModal.card : styles.card}>
@@ -15,7 +15,7 @@ const Card = ({name, description, weidth, price}) => {
         :
         ""
       }
-        <Image className={modal ? stylesModal.img : styles.img} src={Good} />
+        <Image className={modal ? stylesModal.img : styles.img} alt="dsdsdsd" src={Img ? Img : Good} />
         <p className={modal ? stylesModal.title : styles.title}>{name}</p>
         {
           modal ?

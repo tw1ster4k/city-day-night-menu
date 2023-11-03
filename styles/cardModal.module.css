@@ -16,6 +16,7 @@
 
 .img{
     width: 86%;
+    height: auto;
     border-radius: 22.95px;
     margin: 25px 25px 25px 25px;
 }

@@ -51,7 +51,7 @@ const index = () => {
                       <div className={styles.goods}>
                         {
                           goods.map((el, index) => 
-                            <Card key={index} name={el.name} description={el.description} weidth={el.weight} price={el.price} />
+                            <Card key={index} name={el.name} description={el.description} Img={el.img} weidth={el.weight} price={el.price} />
                           )
                         }
                       </div>
