@@ -27,6 +27,9 @@
     line-height: 16.8px;
     color: #fff;
     margin-left: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .price{
@@ -41,7 +44,7 @@
 .priceItem{
     font-family: "Hero";
     font-weight: 200;
-    font-size: 9.33px;
+    font-size: 7.33px;
     line-height: 11.2px;
     color:#fff
 }

@@ -10,10 +10,13 @@ import Tg from "../img/tg.svg"
 import Phone from "../img/phone.svg"
 import MapIcon from "../img/mapIcon.svg"
 import Houses from "../img/Houses.png"
+import { data } from "../data"
+import { useState } from "react"
 
 
 const index = () => {
   const classNavScrollerItem = styles.navScrollerItem + " " + styles.navScrollerItemActive
+  const [goods, setGoods] = useState(data.snacks)
 
   return (
     <div className={styles.main}>
@@ -31,32 +34,24 @@ const index = () => {
                 </div>
                 <div className={styles.navScroller}>
                   <nav className={styles.navScrollerItems}>
-                      <Link className={classNavScrollerItem} href={"/"}>Коктейли</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Напитки</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Закуски</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Салаты</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Супы</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Пасты</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Мясо/Рыба</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Бургеры</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Гарниры</Link>
-                      <Link className={classNavScrollerItem} href={"/"}>Десерты</Link>  
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.snacks)}>Закуски</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.salads)}>Салаты</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.soups)}>Супы</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.pasta)}>Пасты</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.meat)}>Мясо</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.fish)}>Рыба</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.trimmings)}>Гарниры</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.burgers)}>Бургеры</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.rolls)}>Роллы</p>
+                      <p className={classNavScrollerItem} onClick={() => setGoods(data.dessert)}>Десерты</p>  
                   </nav>
                 </div>
-                  <div className={styles.preCategory}>
-                      <text className={styles.categoryTitle}>Коктейли</text>
-                      <div className={styles.categoryTypes}>
-                        <text className={styles.categoryType} >Авторские</text>
-                        <text className={styles.categoryType}>Классические</text>
-                        <text className={styles.categoryType}>Дымные</text>
-                      </div>
                       <div className={styles.goods}>
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        {
+                          goods.map((el, index) => 
+                            <Card key={index} name={el.name} description={el.description} weidth={el.weight} price={el.price} />
+                          )
+                        }
                       </div>
                       <div className={styles.info}>
                           <p>© 2023 Рестобар «City»</p>
@@ -69,7 +64,6 @@ const index = () => {
                           <p style={{fontSize:"10px", lineHeight:"12px", color:"#fff"}}>Разработано веб-студией "Страйкер"</p>
                       </div>
                     <Image style={{marginTop:"40px", marginBottom:"8px", width: "100%",}} src={Houses} />
-                  </div>
               </div>
     </div>
   )
