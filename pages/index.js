@@ -1,6 +1,6 @@
 import styles from "../styles/index.module.css"
 import Image from "next/image"
-import Logo from "../img/logo.svg"
+import Logo from "../img/Logo.svg"
 import BurgerMenuIcon from "../img/BurgerMenuIcon.svg"
 import SearchIcon from "../img/SearchIcon.svg"
 import Link from "next/link"
