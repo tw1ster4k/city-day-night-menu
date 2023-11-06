@@ -240,7 +240,7 @@ export const bar = {
             price:"250/2500"
         }
     ],
-    сoctail:[
+    coctail:[
         {
             name:"Aperol Spritz",
             description:"Апероль, просекко, содовая, апельсин. Классический",
