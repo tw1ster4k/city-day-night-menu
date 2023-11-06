@@ -156,13 +156,13 @@
     font-family: "Hero", sans-serif;
     font-weight: 200;
     font-size: 15px;
+    margin: 0 auto;
     line-height: 18px;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 auto;
 }
 
 .link{

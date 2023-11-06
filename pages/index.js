@@ -10,6 +10,7 @@ import Inst from "../img/ints.svg"
 import Phone from "../img/phone.svg"
 import MapIcon from "../img/mapIcon.svg"
 import Houses from "../img/Houses.png"
+import Menu from "../components/Menu"
 import { data } from "../data"
 import { useState } from "react"
 
@@ -19,12 +20,14 @@ const index = () => {
   const classNavScrollerItem = styles.navScrollerItem + " " + styles.navScrollerItemActive
   const [goods, setGoods] = useState(data.snacks)
   const [selected, setSelected] = useState("Закуски")
+  const [activeMenu, setActiveMenu] = useState(false)
+  const items1 = ['Закуски', 'Салаты', 'Супы', "Пасты", "Мясо", "Рыба", "Гарниры", "Бургеры", "Роллы", "Десерты"]
 
   return (
     <div className={styles.main}>
         <header className={styles.header}>
             <div className={styles.nav}>
-                <Image className={styles.burgerMenuIcon} src={BurgerMenuIcon} />
+                <Image onClick={() => setActiveMenu(!activeMenu)} className={styles.burgerMenuIcon} src={BurgerMenuIcon} />
                 <Image width={50} src={Logo} className={styles.logo} />
             </div>
                 <h1 className={styles.title}>Меню</h1>
@@ -32,7 +35,7 @@ const index = () => {
               <div className={styles.menu}>
                 <div className={styles.search}>
                   <input className={styles.input} placeholder="Поиск по меню" />
-                  <Image src={SearchIcon} className={styles.searchIcon} />
+                  <Image src={SearchIcon}  className={styles.searchIcon} />
                 </div>
                 <div className={styles.navScroller}>
                   <nav className={styles.navScrollerItems}>
@@ -71,6 +74,12 @@ const index = () => {
                       </div>
                     <Image style={{marginTop:"40px", marginBottom:"8px", width: "100%",}} src={Houses} />
               </div>
+              {
+                activeMenu ?
+                <Menu setActiveMenu={setActiveMenu} setSelected={setSelected} setGoods={setGoods} />
+                :
+                ""
+              }
     </div>
   )
 }
