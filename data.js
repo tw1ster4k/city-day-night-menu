@@ -11,14 +11,14 @@ export const data = {
                 name:"Сырное ассорти",
                 description:"ассортимент благородных сыров: дорблю, пармезан, бри. Гарнируется фруктами и орехами по сезону. Холодный",
                 weight:'180/100/50гр',
-                img:require('./menuImg/snacks/CheeseAssorty.jpg'),
+                img:require('./menuImg/snacks/Сырное ассорти.jpg'),
                 price:720
             },
             {
                 name:"Фруктовое ассорти",
                 description:"сезонные фрукты и ягоды в нарезку. Холодный",
                 weight:"900гр",
-                img:require('./menuImg/snacks/FructsAssorty.jpg'),
+                img:require('./menuImg/snacks/Фруктовое ассорти.jpg'),
                 price:680
             },
             {
@@ -42,7 +42,7 @@ export const data = {
             {
                 name:"Тар тар из телятины",
                 description:"с маринованным огурчиком и перепелиным яйцом. Холодный",
-                img:require("./menuImg/snacks/Тар тар из телятины .jpg"),
+                img:require("./menuImg/snacks/Тар тар из телятины.jpg"),
                 weight:"150гр",
                 price:420
             },
@@ -74,7 +74,7 @@ export const data = {
                 name:'Сыр камамбер',
                 description:"в хрустящей кунжутной панировке с гранатовым соусом. Горячий",
                 weight:'100/50/50гр',
-                img:require("./menuImg/snacks/Сыр камамбер .jpg"),
+                img:require("./menuImg/snacks/Сыр камамбер.jpg"),
                 price:320
             },
             {
@@ -101,7 +101,7 @@ export const data = {
                 name:"Гренки бородинские",
                 description:"с чесночным соусом и сыром пармезан. Горячий",
                 weight:"180/20/50гр",
-                img:require('./menuImg/snacks/Гренки бородинские .jpg'),
+                img:require('./menuImg/snacks/Гренки бородинские.jpg'),
                 price:190
             },
             {
@@ -123,7 +123,7 @@ export const data = {
             name:"Салат с говяжьим ростбифом",
             description:'спелыми томатами и битыми огурцами.',
             weight:"280гр",
-            img:require("./menuImg/меню/салаты/Салат с говяжьим ростбифом  .jpg"),
+            img:require("./menuImg/меню/салаты/Салат с говяжьим ростбифом.jpg"),
             price:580
         },
         {
