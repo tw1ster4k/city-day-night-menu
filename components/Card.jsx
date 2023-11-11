@@ -11,7 +11,7 @@ const Card = ({name, description, Img, weidth, price}) => {
     <div onClick={() => setModal(!modal)} className={modal ? stylesModal.card : styles.card}>
       {
         modal ?
-        <Image className={stylesModal.cross} src={Cross} onClick={() => setModal(false)} />
+        <Image className={stylesModal.cross} alt="image" src={Cross} onClick={() => setModal(false)} />
         :
         ""
       }
@@ -25,7 +25,7 @@ const Card = ({name, description, Img, weidth, price}) => {
         }
         <div className={modal ? stylesModal.price : styles.price}>
             <p className={modal ? stylesModal.priceItem : styles.priceItem}>{weidth}</p>
-            <p className={modal ? stylesModal.priceItem : styles.priceItem}>{price} руб.</p>
+            <p className={modal ? stylesModal.priceItem : styles.priceItem}>{price}руб</p>
         </div>
     </div>
   )

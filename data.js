@@ -37,6 +37,7 @@ export const data = {
                 name:"Нежный тар тар из тунца",
                 description:"с муссом из сыра. Холодный",
                 weight:"150гр",
+                img:require('./menuImg/snacks/нежный тартар из тунца.jpg'),
                 price:540
             },
             {
@@ -173,6 +174,7 @@ export const data = {
             name:'Борщ с черносливом',
             description:"разварной говядиной подается с салом и сметаной.",
             weight:"340/100гр",
+            img:require('./menuImg/меню/супы/Борщ с черносливом.jpg'),
             price:480
         },
         {
@@ -343,6 +345,7 @@ export const data = {
             name:"Классический бургер",
             description:'с котлетой из мраморной говядины, овощами, сыром чеддер и соусом барбекю.',
             weight:"380гр",
+            img:require("./menuImg/snacks/Классический бургер.jpg"),
             price:540
         },
         {

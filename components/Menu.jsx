@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { data } from '../data'
 import { bar } from '../bar'
 
-const Menu = ({setActiveMenu,setSelected, setGoods}) => {
+const Menu = ({setActiveMenu,setSelected, setGoods, setStorage}) => {
   const [items, setItems] = useState(null)
   const windowWidth = window.innerWidth
   const menu = [data.snacks, data.salads, data.soups, data.pasta, data.meat, data.fish, data.trimmings, data.burgers, data.rolls, data.dessert]
@@ -19,7 +19,7 @@ const Menu = ({setActiveMenu,setSelected, setGoods}) => {
         <Image onClick={() => setActiveMenu(false)} style={{position:'absolute', left:15, top:15}} src={Krest} />
       <div className={style.menu__content}>
         <div >
-          <div onClick={() => setItems(items && items.length === items1.length ? null : items1)} style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+          <div onClick={() => {setItems(items && items.length === items1.length ? null : items1); setStorage(menu)}} style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
           <Image style={{marginRight:'5px'}} src={strelka} />
           <p style={items && items.length === items1.length ? {borderBottom:1 + "px solid #fff"} : {}}>
           Меню
@@ -34,7 +34,7 @@ const Menu = ({setActiveMenu,setSelected, setGoods}) => {
         </div>
         <div className={style.menu__content}>
         <div>
-          <div onClick={() => setItems(items && items.length === items2.length ? null : items2)} style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+          <div onClick={() => {setItems(items && items.length === items2.length ? null : items2); setStorage(barCard)}} style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
           <Image style={{marginRight:'5px'}} src={strelka} />
           <p style={items && items.length === items2.length ? {borderBottom:1 + "px solid #fff"} : {}}>
             Барная карта

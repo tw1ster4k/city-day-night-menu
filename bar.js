@@ -452,7 +452,7 @@ export const bar = {
     ],
     lbt:[
         {
-            name:"Егермейстер/Jägermeister",
+            name:"Егермейстер/ Jägermeister",
             weight:'50мл/700мл',
             price:"380/6460"
         },

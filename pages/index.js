@@ -44,8 +44,8 @@ const index = () => {
                   <Image src={SearchIcon}  className={styles.searchIcon} />
                 </div>
                 <div className={styles.buttonNav}>
-                  <button onClick={() => {setItems(items1); setStorage(menu)}} style={items.length === items1.length ? {background:"#f3f3f3", color:"#02253f"} : {}} className={styles.buttonMenu}>Меню</button>
-                  <button onClick={() => {setItems(items2); setStorage(barCard)}} style={items.length === items2.length ? {background:"#f3f3f3", color:"#02253f"} : {}} className={styles.buttonBar}>Барная карта</button>
+                  <button onClick={() => {setItems(items1); setStorage(menu); setGoods(menu[0]); setSelected("Закуски")}} style={items.length === items1.length ? {background:"#f3f3f3", color:"#02253f"} : {}} className={styles.buttonMenu}>Меню</button>
+                  <button onClick={() => {setItems(items2); setStorage(barCard); setGoods(barCard[0]); setSelected("Коктейли")}} style={items.length === items2.length ? {background:"#f3f3f3", color:"#02253f"} : {}} className={styles.buttonBar}>Барная карта</button>
                 </div>
                 <div className={styles.navScroller}>
                   <nav className={styles.navScrollerItems}>
@@ -81,7 +81,7 @@ const index = () => {
               </div>
               {
                 activeMenu ?
-                <Menu setActiveMenu={setActiveMenu} setSelected={setSelected} setGoods={setGoods} />
+                <Menu setActiveMenu={setActiveMenu} setStorage={setStorage} setSelected={setSelected} setGoods={setGoods} />
                 :
                 ""
               }
