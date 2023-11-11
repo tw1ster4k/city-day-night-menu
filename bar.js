@@ -245,54 +245,63 @@ export const bar = {
             name:"Aperol Spritz",
             description:"Апероль, просекко, содовая, апельсин. Классический",
             weight:"500мл",
+            img:require("./menuImg/бар/коктейли/Aperol spritz.jpg"),
             price:500
         },
         {
             name:"Daiquiri",
             description:"Ром, сок лайма, сах сироп",
             weight:"190мл",
+            img:require("./menuImg/бар/коктейли/Daiquiri.jpg"),
             price:330
         },
         {
             name:'Mai Tai Poм',
             description:"Выдержанный, лайм, миндаль, цитрусовый ликер. Классический",
             weight:"150мл",
+            img:require('./menuImg/бар/коктейли/Mai tai.jpg'),
             price:550
         },
         {
             name:'Negroni',
             description:"Кампари, джин, мартини россо, апельсин. Классический",
             weight:"150мл",
+            img:require('./menuImg/бар/коктейли/Negroni.jpg'),
             price:420
         },
         {
             name:"Mojito",
             description:"Ром, лайм, мята, содовая. Классический",
             weight:"500мл",
+            img:require("./menuImg/бар/коктейли/Mojito.jpg"),
             price:400
         },
         {
             name:'Margarita',
             description:"Текила, цитрусовый ликер, сах.сироп, лайм. Классический",
             weight:"350мл",
+            img:require('./menuImg/бар/коктейли/Margarita.jpg'),
             price:420
         },
         {
             name:"Tequila Sunrise",
             description:"Текила, фреш апельсин, сироп гренадин. Классический",
             weight:'300мл',
+            img:require('./menuImg/бар/коктейли/Tequila sunrise.jpg'),
             price:350
         },
         {
             name:'New-York Sour',
             description:"Бурбон, сах.сироп, лайм, вино красное. Классический",
             weight:"200мл",
+            img:require('./menuImg/бар/коктейли/New -York sour.jpg'),
             price:380
         },
         {
             name:"Pina Colada",
             description:"Ром белый, сок ананаса, пюре кокос. Классический",
             weight:"350мл",
+            img:require('./menuImg/бар/коктейли/Pina colada.jpg'),
             price:380
         },
         {
@@ -317,6 +326,7 @@ export const bar = {
             name:'Paloma',
             description:'Текила, фреш грейп, фреш апельсин, ликер трипл сек, лайм. Классический',
             weight:'400мл',
+            img:require("./menuImg/бар/коктейли/Paloma breezy.jpg"),
             price:390
         },
         {
@@ -329,6 +339,7 @@ export const bar = {
             name:'Crystal Edition',
             description:'Джин, вермут, лайм, маракуйа, мята, тоник/спрайт. Авторский',
             weight:'350мл',
+            img:require("./menuImg/бар/коктейли/Crystal edition.jpg"),
             price:480
         },
         {
@@ -341,24 +352,28 @@ export const bar = {
             name:'Beyonce',
             description:'Джин, персик ликер, мартини фиеро, лайм, малина. Авторский',
             weight:'350мл',
+            img:require("./menuImg/бар/коктейли/Beyonce.jpg"),
             price:450
         },
         {
             name:'Lemon Scotch',
             description:'Виски, апероль, лайм, манго, биттер лемон. Авторский',
             weight:"500мл",
+            img:require('./menuImg/бар/коктейли/Lemon scotch.jpg'),
             price:450
         },
         {
             name:'Future Tai',
             description:'Ликер дыня, Выд ром, сироп гуава, сок лайма. Авторский',
             weight:'350мл',
+            img:require('./menuImg/бар/коктейли/Future tai.jpg'),
             price:360
         },
         {
             name:'Bali',
             description:'Виски, клубника, маракуйа, сироп ваниль, лайм. Авторский',
             weight:'300мл',
+            img:require('./menuImg/бар/коктейли/Bali.jpg'),
             price:450
         },
         {
