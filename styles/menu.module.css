@@ -9,7 +9,7 @@
     max-width: 375px;
     min-height: 160px;
     position: absolute;
-    z-index: 3;
+    z-index: 9999999;
     top: 0;
     background: linear-gradient(180deg, #02253F 0%, #010204 100%);
     color: #fff;
