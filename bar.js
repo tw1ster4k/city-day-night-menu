@@ -731,7 +731,7 @@ export const bar = {
             price:2800
         },
         {
-            name:'Киндзамарули/Kindzmarauli',
+            name:'Киндзамарули / Kindzmarauli',
             description:'Красное',
             weight:'0,75мл',
             price:1700
