@@ -15,7 +15,7 @@ const Menu = ({setActiveMenu,setSelected, setGoods, setStorage}) => {
   const items1 = ['Закуски', 'Салаты', 'Супы', "Пасты", "Мясо", "Рыба", "Гарниры", "Бургеры", "Роллы", "Десерты"]
   const items2 = ["Коктейли", "Виски", "Ром","Ликеры/Биттеры/Настойки" ,"Вермуты", "Коньяк и Бренди", "Джин", "Водка", "Текила", "Игристые вина", "Тихие вина",'Прохладительные напитки' ,"Пиво", "Лимонад", "Смузи", "Фреши", "Чай", "Кофе"]
   return (
-      <div className={style.menu} style={windowWidth > 375 ? {width:375} : {width:"100%"}}>
+      <div className={style.menu} >
         <Image onClick={() => setActiveMenu(false)} style={{position:'absolute', left:15, top:15}} src={Krest} />
       <div className={style.menu__content}>
         <div >

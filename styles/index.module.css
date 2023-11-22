@@ -6,14 +6,15 @@
 }
 
 .main{
-    max-width: 375px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .header{
     background-image: url(../img/Background.png);
     width: 100%;
-    height: 163px;
+    background-size: 100%;
+    min-height: 163px;
 }
 
 .nav{

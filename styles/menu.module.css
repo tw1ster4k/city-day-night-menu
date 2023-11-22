@@ -6,7 +6,7 @@
 }
 
 .menu{
-    max-width: 375px;
+    width: 100%;
     min-height: 160px;
     position: absolute;
     z-index: 9999999;

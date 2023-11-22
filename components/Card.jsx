@@ -24,7 +24,7 @@ const Card = ({name, description, Img, weidth, price}) => {
           ""
         }
         <div className={modal ? stylesModal.price : styles.price}>
-            <p className={modal ? stylesModal.priceItem : styles.priceItem}>{weidth}</p>
+            <p className={modal ? stylesModal.priceItem : styles.priceItem} style={{marginRight:20}}>{weidth}</p>
             <p className={modal ? stylesModal.priceItem : styles.priceItem}>{price}руб</p>
         </div>
     </div>
