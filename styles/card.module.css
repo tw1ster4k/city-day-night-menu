@@ -6,48 +6,45 @@
 }
 
 .card{
-    width: 105px;
-    height: 165px;
+    width: 155px;
+    height: 215px;
     border-radius: 10px;
     border: 0.5px solid #8e8e8e;
     margin-bottom: 15px;
 }
 
 .img{
-    width: 85px;
+    width: 80%;
     height: auto;
     border-radius: 10px;
-    margin: 10px 10px 0 10px;
+    margin: 15px 15px 0 15px;
 }
 
 .title{
     font-family: "Hero";
     font-weight: 200;
-    font-size: 14px;
-    line-height: 16.8px;
+    font-size: 11px;
+    line-height: 12px;
     color: #fff;
     margin: 0 auto;
-    width: 85px;
+    width: 80%;
     text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 
 .price{
 
-    width: 86px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     position: relative;
     margin-top: 5px;
-    margin-left: 9.5px;
+    margin-left: 15px;
 }
 
 .priceItem{
     font-family: "Hero";
     font-weight: 200;
-    font-size: 7.33px;
+    font-size: 10.33px;
     line-height: 11.2px;
     color:#fff
 }
