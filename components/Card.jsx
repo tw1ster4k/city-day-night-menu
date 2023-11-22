@@ -16,7 +16,7 @@ const Card = ({name, description, Img, weidth, price}) => {
         ""
       }
         <Image className={modal ? stylesModal.img : styles.img} alt="dsdsdsd" src={Img ? Img : Good} />
-        <p className={modal ? stylesModal.title : styles.title}>{name}</p>
+        <p className={modal ? stylesModal.title : styles.title} style={ name.length > 80 ? {fontSize:"9px", lineHeight:"10px"} : {}}>{name}</p>
         {
           modal ?
           <p className={stylesModal.description}>{description}</p>
