@@ -228,7 +228,21 @@ export const data = {
             name:'Мисо суп',
             description:"с тофу и каменными грибами.",
             weight:"340гр",
+            img:require('./menuImg/меню/салаты/Мисо суп.jpg'),
             price:380
+        },
+        {
+            name:'Острый корейский суп',
+            description:'с редкой и грибами',
+            weight:"300гр",
+            price:350,
+            img:require('./menuImg/меню/салаты/Острый корейский суп.jpg')
+        },
+        {
+            name:'Наваристый суп',
+            description:'из бывших хвостов с корнеплодами и томатами',
+            weight:"300гр",
+            img:require("./menuImg/меню/салаты/Наваристый суп.jpg")
         }
     ],
     pasta:[
@@ -272,6 +286,12 @@ export const data = {
             weight:"280гр",
             price:440
         },
+        {
+            name:'Спагетти с ванголе и хрустящим луком',
+            weight:'300гр',
+            price:540,
+            img:require("./menuImg/меню/пасты/Спагетти с ванголе и хрустящим луком.jpg")
+        }
     ],
     meat:[
         {
