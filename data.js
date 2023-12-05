@@ -67,6 +67,7 @@ export const data = {
                 name:"Ассорти домашних солений",
                 description:"Холодный",
                 weight:"400гр",
+                img:require('./menuImg/snacks/Ассорти домашних соленей.jpg'),
                 price:360
             },
             {
@@ -101,7 +102,8 @@ export const data = {
                 name:"Бон марроу из говядины",
                 description:"с тостами из цельно зернового хлеба и печеным чесноком. Горячий",
                 weight:"300/50/100гр",
-                price:380
+                price:380,
+                img:require('./menuImg/snacks/Бон марроу из говядины.jpg')
             },
             {
                 name:"Гренки бородинские",
@@ -124,12 +126,6 @@ export const data = {
                 img:require('./menuImg/snacks/Ассорти из трех бускетт.jpg'),
                 price:640
             },
-            {
-                name:'Ассорти домашних соленей',
-                weight:'400гр',
-                img:require('./menuImg/snacks/Ассорти домашних соленей.jpg'),
-                price:360
-            }
         ] ,     
     salads:[
         {

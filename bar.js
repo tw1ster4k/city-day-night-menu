@@ -506,11 +506,6 @@ export const bar = {
             img:require('./menuImg/бар/ликеры биттеры настойки/Егермейстер.jpg')
         },
         {
-            name:'Бэйлис/Baileys',
-            weight:"50мл/700мл",
-            price:"280/3920"
-        },
-        {
             name:'Бехеровка/Becherovka',
             weight:'50мл/700мл',
             price:"390/5460"
