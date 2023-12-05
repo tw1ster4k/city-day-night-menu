@@ -61,7 +61,8 @@ export const bar = {
             name:"Bless you",
             description:"клубника, банан, киви,сок малина",
             weight:"450мл",
-            price:380
+            price:380,
+            img:require('./menuImg/бар/смузи/bless you.jpg')
         }
     ],
     fresh:[
