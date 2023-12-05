@@ -339,7 +339,8 @@ export const data = {
             name:"Рулет из говяжьей грудинки",
             description:"с пюре из зелёного горошка.",
             weight:"200/150/50гр",
-            price:620
+            price:620,
+            img:require('./menuImg/меню/Мясо/Рулет из говяжий грудинки.jpg')
         }
     ],
     fish:[
@@ -368,12 +369,14 @@ export const data = {
             name:'Ванголе',
             description:"под соусом дорблю и хрустящие гренками.",
             weight:"280/100/50гр",
-            price:620
+            price:620,
+            img:require('./menuImg/меню/рыба/Ванголе.jpg')
         },
         {
             name:"Синекорый палтус",
             description:"с печеной морковью под икорным соусом.",
             weight:"190/100/50гр",
+            img:require('./menuImg/меню/рыба/Синекорый палтус.jpg'),
             price:740
         }
     ],
@@ -401,7 +404,8 @@ export const data = {
         {
             name:'Цветная капуста',
             weight:"150гр",
-            price:160
+            price:160,
+            img:require("./menuImg/меню/рыба/Цветная капуста.jpg")
         }
     ],
     burgers:[
@@ -415,6 +419,7 @@ export const data = {
         {
             name:'Чикен бургер',
             description:"с беконом и ананасом.",
+            img:require("./menuImg/меню/рыба/Чикен бургер.jpg"),
             weight:"380гр",
             price:480
         }
@@ -424,19 +429,22 @@ export const data = {
                 name:'Калифорния Маки',
                 description:'Снежный краб, авокадо, икра капеллана, рис. Фирменные',
                 weight:"300гр",
+                img:require("./menuImg/меню/роллы/Калифорния маки.jpg"),
                 price:480
             },
             {
                 name:'Канада Маки',
                 description:"Угорь, лосось, сливочный сыр, авокадо, огурец, рис. Фирменные",
                 weight:"300гр",
-                price:560
+                price:560,
+                img:require("./menuImg/меню/роллы/Канада маки.jpg")
             },
             {
                 name:'Филадельфия Маки',
                 description:'Лосось, огурец, нори, сливочный сыр, рис. Фирменные',
                 weight:'320гр',
-                price:580
+                price:580,
+                img:require('./menuImg/меню/роллы/Филадельфия маки.jpg')
             },
             {
                 name:'Футомаки',
@@ -448,43 +456,50 @@ export const data = {
                 name:'Эби филадельфия',
                 description:'Креветка, сливочный сыр, огурец, рис. Фирменные',
                 weight:'320гр',
+                img:require('./menuImg/меню/роллы/Эби Филадельфия.jpg'),
                 price:560
             },
             {
                 name:"Авакадо Маки",
                 description:'Классические',
                 weight:'140гр',
-                price:200
+                price:200,
+                img:require('./menuImg/меню/роллы/Авокадо маки.jpg')
             },
             {
                 name:"Капа Маки",
                 description:'Классические',
                 weight:'140гр',
-                price:200
+                price:200,
+                img:require('./menuImg/меню/роллы/Капа маки.jpg')
             },
             {
                 name:"Сяке Маки",
                 description:'Классические',
                 weight:'140гр',
+                img:require('./menuImg/меню/роллы/Сяке маки.jpg'),
                 price:270
             },
             {
                 name:"Унаги Маки",
                 description:'Классические',
                 weight:'140гр',
-                price:270
+                price:270,
+                img:require('./menuImg/меню/роллы/Унаги маки.jpg')
             },
             {
                 name:"Тека Маки",
                 description:'Классические',
                 weight:'140гр',
-                price:270
+                price:270,
+                img:require('./menuImg/меню/роллы/Тека маки.jpg')
             },
             {
                 name:"Эби Маки",
                 description:'Классические',
                 weight:'140гр',
-                price:270
+                price:270,
+                img:require('./menuImg/меню/роллы/Эби маки.jpg')
             },
     ],
     dessert:[

@@ -104,38 +104,65 @@ export const bar = {
             name:"Яблоко/Корица",
             description:"Чай Сенча, яблоко сироп, корица, яблоко. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/Яблоко:корица.jpg')
         },
         {
             name:"Облепиха/Цитрус",
             description:"Чай Ассам, цитрусы, анис, облепиха. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/облепиха:цитрус.jpg')
         },
         {
             name:"Вишня/Мята",
             description:"Чай Ассам, вишня, мята, сироп вишни. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/вишня:мята.jpg')
         },
         {
             name:"Ягоды/Груша",
             description:"Чай лесные ягоды, сироп груша, груша. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/ягоды:груша.jpg')
         },
         {
             name:"Апельсин/Мед",
             description:"Чай Ассам, апельсин, сироп мохито. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/апельсин:мед.jpg')
         },
         {
             name:"Пина Колада",
             description:"Чай молочный улун, сироп кокос, ананас. Авторский",
             weight:"1л",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/чай/Пина колада.jpg')
         },
+        {
+            name:'Ягодный',
+            description:'Авторский',
+            weight:"900мл",
+            price:550,
+            img:require('./menuImg/бар/чай/Ягодный.jpg')
+        },
+        {
+            name:'Клубника/Базилик',
+            description:"Авторский",
+            weight:"900мл",
+            price:550,
+            img:require('./menuImg/бар/чай/Клубника:базилик.jpg')
+        },
+        {
+            name:"Апельсин/Манго",
+            description:'Авторский',
+            weight:"900мл",
+            price:550,
+            img:require('./menuImg/бар/чай/Апельсин:манго.jpg')
+        }
     ],
     coffee:[
         {
@@ -184,7 +211,8 @@ export const bar = {
             name:"Шнайдер Байриш Хель/Schneider's Bayerisch Hell",
             description:"Светлое, фильтрованное. алк. 4,9% (Германия)",
             weight:"500мл",
-            price:420
+            price:420,
+            img:require('./menuImg/бар/пиво/Шнайдерс байриш хель.jpg')
         },
         {
             name:'Винингер Вайсбир Хель/WIENINGER Weisbier Hell',
@@ -196,31 +224,36 @@ export const bar = {
             name:"Штанброй/Steinbrau Schwarzbier",
             description:"Темное, фильтрованное алк. 5% (Германия)",
             weight:"500мл",
-            price:400
+            price:400,
+            img:require('./menuImg/бар/пиво/Штанброй.jpg')
         },
         {
             name:"Корона Экстра/Corona extra",
             description:"Светлое, Фильтрованное алк. 4,5 (Мексика)",
             weight:"300мл",
-            price:350
+            price:350,
+            img:require('./menuImg/бар/пиво/Корона экстра.jpg')
         },
         {
             name:'Хайдеггер Хель/Heidegger Hell',
             description:"Светлое, фильтрованное алк. 4,7% (Россия) ",
             weight:"500мл",
-            price:350
+            price:350,
+            img:require('./menuImg/бар/пиво/Хайдеггер хель.jpg')
         },
         {
             name:"Аусвайс/Ausweis",
             description:"Светлое, нефильтрованное алк. 5,2 (Россия)",
             weight:"500мл",
-            price:350
+            price:350,
+            img:require('./menuImg/бар/пиво/Аусвайс.jpg')
         },
         {
             name:"Майзелс Вайс/Maisels Weisse Alkoholfre",
             description:"Б/А Светлое нефильтр. 0,5л алк. не более 0,4%",
             weight:"500мл",
-            price:350
+            price:350,
+            img:require('./menuImg/бар/пиво/Майзелс вайс.jpg')
         }
     ],
     BrandTinctures:[
@@ -346,7 +379,8 @@ export const bar = {
             name:'Jay-Z',
             description:'Ром выдержанный, сахар сироп, Априкот, пюре вишни, лайм. Авторский',
             weight:'50мл',
-            price:420
+            price:420,
+            img:require('./menuImg/бар/коктейли/Jay-z.jpg')
         },
         {
             name:'Beyonce',
@@ -392,30 +426,35 @@ export const bar = {
             name:'Lonely MILF',
             description:'Ром, манго, лайм, кокос, проссеко. Авторский',
             weight:'350мл',
-            price:520
+            price:520,
+            img:require('./menuImg/бар/коктейли/Lonely milf.jpg')
         },
         {
             name:'Winehouse',
             description:'Джин, ликер личи, сироп бузина, лайм, клубника. Авторский',
             weight:'300мл',
-            price:380
+            price:380,
+            img:require('./menuImg/бар/коктейли/Winehouse.jpg')
         },
         {
             name:"Bramble Savage",
             description:'Кордиал, водка вкусовая, фалернум, малина. Авторский',
             weight:'220мл',
-            price:420
+            price:420,
+            img:require('./menuImg/бар/коктейли/Bramble savage.jpg')
         },
         {
             name:'Barbie',
             description:"Малина, ваниль, пинк джин, лайм, просекко. Авторский",
             weight:'350мл',
+            img:require('./menuImg/бар/коктейли/Barbie.jpg'),
             price:520
         },
         {
             name:'40/30',
             description:'Самбука, лайм, сок ананаса, бабл гам, фиалка. Авторский',
             weight:'330мл',
+            img:require('./menuImg/бар/коктейли/40:30.jpg'),
             price:380
         },
         {
@@ -428,19 +467,22 @@ export const bar = {
             name:'Pink Phloyd',
             description:"Ром, мартини россо, кордиал, лайм. Авторский",
             weight:'300мл',
-            price:430
+            price:430,
+            img:require('./menuImg/бар/коктейли/Pink phloyd.jpg')
         },
         {
             name:'Blackberry Sour',
             description:'Виски, лайм, сироп ежевики, белок. Авторский',
             weight:'300мл',
-            price:460
+            price:460,
+            img:require('./menuImg/бар/коктейли/Blackberry sour.jpg')
         },
         {
             name:'Lavender Sour',
             description:'Джин, лайм, сироп лаванды, белок. Авторский',
             weight:'300мл',
-            price:420
+            price:420,
+            img:require('./menuImg/бар/коктейли/Levender sour.jpg')
         },
     ],
     vermouths:[
@@ -704,43 +746,50 @@ export const bar = {
             name:'Пино Гриджио Деле Венеция/Pinot Grigio Delle Venezie',
             description:'Италия, Сухое, Белое',
             weight:'0,75мл',
-            price:1400
+            price:1400,
+            img:require('./menuImg/бар/тихие вина/Пино гриджио.jpg')
         },
         {
             name:'Ривер Рут Рислинг/River Route Riesling',
             description:'Германия, Полусухое, Белое',
             weight:'0,75мл',
-            price:1700
+            price:1700,
+            img:require('./menuImg/бар/тихие вина/Ривер рут рислинг.jpg')
         },
         {
             name:'Виньо Верде/Norte Vinho Verde DOC',
             description:'Португалия, Сухое Ладога, Белое',
             weight:'0,75мл',
-            price:1700
+            price:1700,
+            img:require('./menuImg/бар/тихие вина/Виньо верде.jpg')
         },
         {
             name:'Марипоса Торронтес/Mariposa Torrontes',
             description:'Аргентина, Сухое, Белое',
             weight:'0,75мл',
-            price:1600
+            price:1600,
+            img:require('./menuImg/бар/тихие вина/Марипоса торронтес.jpg')
         },
         {
             name:'Арко Бэй Мальборо Совиньон Блан/Arco Bay Marlborough Sauvignon Blanc',
             description:'Новая Зеландия, Сухое, Белое',
             weight:'0,75мл',
-            price:2800
+            price:2800,
+            img:require('./menuImg/бар/тихие вина/Арко бэй мальборо совиньон блан.jpg')
         },
         {
             name:'Киндзамарули / Kindzmarauli',
             description:'Красное',
             weight:'0,75мл',
-            price:1700
+            price:1700,
+            img:require('./menuImg/бар/тихие вина/Киндзмараули.jpg')
         },
         {
             name:'Кьянти/Chianti',
             description:'Красное',
             weight:'0,75мл',
-            price:2600
+            price:2600,
+            img:require('./menuImg/бар/тихие вина/Кьянти.jpg')
         },
         {
             name:'Марипоса Мальбэк - Бонарда/Mariposa Malbec - Bonarda',
@@ -758,7 +807,8 @@ export const bar = {
             name:'Марипоса Мальбэк Бонарда/Mariposa Malbec Bonarda',
             description:'По бокалам',
             weight:'0,15мл',
-            price:320
+            price:320,
+            img:require('./menuImg/бар/тихие вина/Марипоса мальбек бонардо.jpg')
         }
     ]
 }
