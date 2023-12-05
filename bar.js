@@ -3,22 +3,26 @@ export const bar = {
         {
             name:"Кола/ Кола зеро",
             weight:"330мл",
-            price:150
+            price:150,
+            img:require('./menuImg/бар/прохладительные напитки/Кола зеро.jpg')
         },
         {
             name:"Спрайт",
             weight:"330 мл",
-            price:150
+            price:150,
+            img:require('./menuImg/бар/прохладительные напитки/Добрый спрайт.jpg')
         },
         {
             name:"Тоник",
             weight:"330мл",
-            price:150
+            price:150,
+            img:require('./menuImg/бар/прохладительные напитки/Тоник.jpg')
         },
         {
             name:"Burn",
             weight:"330мл",
-            price:150
+            price:150,
+            img:require('./menuImg/бар/прохладительные напитки/Берн.jpg')
         },
         {
             name:"Бон аква газ/негаз",
@@ -30,17 +34,20 @@ export const bar = {
         {
             name:"Ягодный",
             weight:"300мл/900мл",
-            price:"250/550"
+            price:"250/550",
+            img:require('./menuImg/бар/чай/Ягодный.jpg')
         },
         {
             name:"Клубника/Базилик",
             weight:"300мл/900мл",
-            price:"250/550"
+            price:"250/550",
+            img:require('./menuImg/бар/чай/Клубника:базилик.jpg')
         },
         {
             name:"Апельсин/Манго",
             weight:"300мл/900мл",
-            price:"250/550"
+            price:"250/550",
+            img:require('./menuImg/бар/чай/Апельсин:манго.jpg')
         },
     ],
     smoothie:[
@@ -142,27 +149,6 @@ export const bar = {
             price:420,
             img:require('./menuImg/бар/чай/Пина колада.jpg')
         },
-        {
-            name:'Ягодный',
-            description:'Авторский',
-            weight:"900мл",
-            price:550,
-            img:require('./menuImg/бар/чай/Ягодный.jpg')
-        },
-        {
-            name:'Клубника/Базилик',
-            description:"Авторский",
-            weight:"900мл",
-            price:550,
-            img:require('./menuImg/бар/чай/Клубника:базилик.jpg')
-        },
-        {
-            name:"Апельсин/Манго",
-            description:'Авторский',
-            weight:"900мл",
-            price:550,
-            img:require('./menuImg/бар/чай/Апельсин:манго.jpg')
-        }
     ],
     coffee:[
         {
@@ -489,29 +475,34 @@ export const bar = {
         {
             name:'Мартини Бьянко/Martini Bianco',
             weight:'100мл/1000мл',
-            price:"350/3500"
+            price:"350/3500",
+            img:require('./menuImg/бар/вермуды/Мартини Бьянко.jpg')
         },
         {
             name:'Мартини Фиеро/Martini Fiero',
             weight:'100мл/1000мл',
-            price:"350/3500"
+            price:"350/3500",
+            img:require('./menuImg/бар/вермуды/Мартини Фиеро.jpg')
         },
         {
             name:'Мартини Россо/Martini Rosso',
             weight:'100мл/1000мл',
-            price:"350/3500"
+            price:"350/3500",
+            img:require('./menuImg/бар/вермуды/Мартини Россо.jpg')
         },
         {
             name:'Мартини Экстра Драй/Martini Extra Dry',
             weight:'100мл/1000мл',
-            price:"350/3500"
+            price:"350/3500",
+            img:require('./menuImg/бар/вермуды/Мартини Экстра Драй.jpg')
         }
     ],
     lbt:[
         {
             name:"Егермейстер/ Jägermeister",
             weight:'50мл/700мл',
-            price:"380/6460"
+            price:"380/6460",
+            img:require('./menuImg/бар/ликеры биттеры настойки/Егермейстер.jpg')
         },
         {
             name:'Бэйлис/Baileys',
@@ -531,46 +522,54 @@ export const bar = {
         {
             name:"Самбука/Sambuca",
             weight:'50мл/700мл',
-            price:"400/6000"
+            price:"400/6000",
+            img:require('./menuImg/бар/ликеры биттеры настойки/Самбука.jpg')
         },
     ],
     CongacBrandy:[
         {
             name:'Рулле ВС/Roullet VS',
             weight:"50мл/500мл",
-            price:"490/4900"
+            price:"490/4900",
+            img:require('./menuImg/бар/коньяк и бренди/Рулле ВС.jpg')
         },
         {
             name:'Рулле ВСОП/Roullet VSOP',
             weight:"50мл/500мл",
-            price:"720/7200"
+            price:"720/7200",
+            img:require('./menuImg/бар/коньяк и бренди/Рулле ВСОП.jpg')
         },
         {
             name:'Арарат 3 года/Ararat 3 y.o.',
             weight:"50мл/500мл",
-            price:"280/2900"
+            price:"280/2900",
+            img:require('./menuImg/бар/коньяк и бренди/Арарат 3 года.jpg')
         },
         {
             name:"Арарат 5 лет/Ararat 5 y.o",
             weight:"50мл/500мл",
-            price:"320/3500"
+            price:"320/3500",
+            img:require('./menuImg/бар/коньяк и бренди/Арарат 5 лет.jpg')
         },
     ],
     geneva:[
         {
             name:'Грин Бабун/Green Babun',
             weight:'50мл/700мл ',
-            price:'220/3080'
+            price:'220/3080',
+            img:require('./menuImg/бар/джин/Грин бабун.jpg')
         },
         {
             name:'Барристер Б47/Barrister B47',
             weight:'50мл/700мл',
-            price:'260/3640'
+            price:'260/3640',
+            img:require('./menuImg/бар/джин/Барристер.jpg')
         },
         {
             name:'Бифитер Лондон драй/Befeater London Dry',
             weight:'50мл/700мл ',
-            price:'520/7280'
+            price:'520/7280',
+            img:require('./menuImg/бар/джин/Бифитер Лондон драй.jpg')
         },
     ],
     whiskey:[
@@ -578,144 +577,169 @@ export const bar = {
                 name:'Джим бим Бурбон/Jim Beam Bourbon.',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:'400/5600'
+                price:'400/5600',
+                img:require('./menuImg/бар/виски/Джим бим Бурбон.jpg')
             },
             {
                 name:'Джим Бим Ред стаг/Jim Beam Red Stag',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:"400/5600"
+                price:"400/5600",
+                img:require('./menuImg/бар/виски/Джим Бим Ред стаг.jpg')
             },
             {
                 name:'Джим Бим Эппл/Jim Beam Apple',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:'400/5600'
+                price:'400/5600',
+                img:require('./menuImg/бар/виски/Джим Бим Эппл.jpg')
             },
             {
                 name:'Джемесон/Jameson',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:'450/6300'
+                price:'450/6300',
+                img:require('./menuImg/бар/виски/Джемесон.jpg')
             },
             {
                 name:'Акаши Блендед/Akashi Blended',
                 description:'Купажированный',
                 weight:"50мл/600мл",
-                price:"640/6400"
+                price:"640/6400",
+                img:require('./menuImg/бар/виски/Акаши Блендед.jpg')
             },
             {
                 name:'Балантайс Файнст/Ballantines Finest',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:'350/4900'
+                price:'350/4900',
+                img:require('./menuImg/бар/виски/Баллантайнс файнст.jpg')
             },
             {
                 name:'Уистлер Дабл Оакед Ириш/The Whistler Double Oaked Iris',
                 description:'Купажированный',
                 weight:"50мл/700мл",
-                price:'320/4480'
+                price:'320/4480',
+                img:require('./menuImg/бар/виски/Уистлер Дабл Оакед Ириш.jpg')
             },
             {
                 name:'Чивас Ригал 12 лет/Chivas Regal 12 y.o.',
                 description:'Купажированный',
                 weight:'50мл/700мл',
-                price:'690/9660'
+                price:'690/9660',
+                img:require('./menuImg/бар/виски/Чивас Ригал.jpg')
             },
         {
             name:'Уистлер Пи Икс Ай Лав Ю/Whistler PX I Love U',
             description:'Односолодовый',
             weight:'50мл/700мл',
-            price:'600/8400'
+            price:'600/8400',
+            img:require('./menuImg/бар/виски/Уистлер Пи Икс Ай Лав Ю.jpg')
         },
         {
             name:'Акентошан Американ ОАК/Auchentoshan American OAK',
             description:'Односолодовый',
             weight:'50мл/700мл',
-            price:'790/11000'
+            price:'790/11000',
+            img:require('./menuImg/бар/виски/Акентошан Американ ОАК.jpg')
         },
         {
             name:'Томинтул Спейсайд Гленливет Сингл Молт 10 лет/Tomintoul Speyside Glenlivet Single Malt Scotch Whisky 10 у.о.',
             weight:'50мл/700мл',
             description:'Односолодовый',
-            price:'1070/14950'
+            price:'1070/14950',
+            img:require('./menuImg/бар/виски/Томинтул Спейсайд Гленливет Сингл Молт 10 лет.jpg')
         },
         {
             name:'Глинфиддик 12 лет/Glenfiddich 12 Y.o.',
             description:'Односолодовый',
             weight:"50мл/700мл",
-            price:'1070/14950'
+            price:'1070/14950',
+            img:require('./menuImg/бар/виски/Глинфиддик 12 лет.jpg')
         },
 ],
     rum:[
         {
             name:'Barcelo Blanco',
             weight:'50мл/700мл',
-            price:'250/3500'
+            price:'250/3500',
+            img:require('./menuImg/бар/ром/Барсело Бланко.jpg')
         },
         {
             name:'Barcelo Dorado',
             weight:'50мл/700мл',
-            price:'250/3500'
+            price:'250/3500',
+            img:require('./menuImg/бар/ром/Барсело Дорадо.jpg')
         },
         {
             name:'Barcelo Dark Anejo',
             weight:'50мл/700мл',
-            price:'290/4060'
+            price:'290/4060',
+            img:require('./menuImg/бар/ром/Барсело дарк.jpg')
         },
         {
             name:'Brugal Anejo',
             weight:'50мл/700мл',
-            price:'350/4900'
+            price:'350/4900',
+            img:require('./menuImg/бар/ром/Бругал.jpg')
         },
         {
             name:'Диллон ВСОП/Dillon V.S.O.P',
             weight:'50мл/700мл',
-            price:'500/7000'
+            price:'500/7000',
+            img:require('./menuImg/бар/ром/Диллон всоп.jpg')
         }
     ],
     vodka:[
         {
             name:'Тундра/Tundra',
             weight:'50мл/500мл',
-            price:'110/1100'
+            price:'110/1100',
+            img:require('./menuImg/бар/водка/Тундра.jpg')
         },
         {
             name:'Белуга/Beluga',
             weight:'50мл/500мл',
-            price:'280/2800'
+            price:'280/2800',
+            img:require('./menuImg/бар/водка/Белуга.jpg')
         },
         {
             name:'Белуга Голд Лайн/Beluga Gold Line',
             weight:'50мл/500мл',
-            price:"370/3700"
+            price:"370/3700",
+            img:require('./menuImg/бар/водка/Белуга Голд Лайн.jpg')
         },
         {
             name:"Царская Оригинальная/Czar's Original",
             weight:'50мл/500мл',
-            price:'160/1600'
+            price:'160/1600',
+            img:require('./menuImg/бар/водка/Царская оригинальная.jpg')
         },
         {
             name:"Царская Вкусовая/Czar's Taste",
-            price:'50мл/700мл',
-            price:'180/1800'
+            weight:'50мл/700мл',
+            price:'180/1800',
+            img:require('./menuImg/бар/водка/Царская Вкусовая.jpg')
         }
     ],
     tequila:[
         {
             name:'Тереза Дель Кастильо Бланко/Teresa Del Castillo Blanco xayc',
             weight:'50мл/700мл',
-            price:'220/3080'
+            price:'220/3080',
+            img:require('./menuImg/бар/текила/Тереза Дель Кастильо Бланко.jpg')
         },
         {
             name:'Ольмека Белая/Olmeca Blanco',
             weight:'50мл/700мл',
-            price:'450/6300'
+            price:'450/6300',
+            img:require('./menuImg/бар/текила/Ольмека белая.jpg')
         },
         {
             name:'Дон Рамон Сильвер 100% Агава/Don Ramon Silver 100% Agave',
             weight:'50мл/700мл',
-            price:'500/7000'
+            price:'500/7000',
+            img:require('./menuImg/бар/текила/Дон рамон сильвер.jpg')
         }
     ],
     sparklingWine:[
@@ -723,22 +747,26 @@ export const bar = {
             name:'Абрау-Дюрсо / Abrau - Durso Брют',
             description:'Полусладкое',
             weight:'0,75мл',
-            price:1100
+            price:1100,
+            img:require('./menuImg/бар/игристые вина/Абрау-дюрсо.jpg')
         },
         {
             name:'Пино Гриджо Колле Бакко/Pinot Grigio Colle Bacco',
             weight:'0,75мл',
-            price:1800
+            price:1800,
+            img:require('./menuImg/бар/игристые вина/Пино гриджио колле бакко.jpg')
         },
         {
             name:'Просекко Фонте/Prosecco Fonte',
             weight:'0,75мл',
-            price:2400
+            price:2400,
+            img:require('./menuImg/бар/игристые вина/Просекко.jpg')
         },
         {
             name:"Асти Фонте/Asti Fonte",
             weight:'0,75мл',
-            price:1900
+            price:1900,
+            img:require('./menuImg/бар/игристые вина/Асти фонте.jpg')
         }
     ],
     quietWines:[
